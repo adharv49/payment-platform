@@ -1,8 +1,7 @@
-<<<<<<< HEAD
-# Payment Ledger Platform
+
 =======
 # Payment Platform
->>>>>>> 9ad341ef45a1866f8657ffa1b06e1bf8aa1d3783
+
 
 A distributed payment processing and double-entry ledger service. Submitting
 a payment is a fast, synchronous API call; actually moving money happens
@@ -158,11 +157,11 @@ caller's perceived latency.
 ## Project structure
 
 ```
-<<<<<<< HEAD
+
 src/main/java/com/adharvs/paymentledger/
 =======
 src/main/java/com/sahithireddy/paymentledger/
->>>>>>> 9ad341ef45a1866f8657ffa1b06e1bf8aa1d3783
+
   api/            REST controllers, DTOs, global exception handling
   domain/         JPA entities
   repository/     Spring Data repositories (including locking queries)
@@ -174,8 +173,8 @@ src/test/                          Unit tests + Testcontainers integration tests
 loadtest/                          k6 load test + account-seeding script
 docs/architecture.md               Full request flow + design rationale
 frontend/                          React + Vite dashboard (optional UI, see frontend/README.md)
-<<<<<<< HEAD
+
 ```
 =======
 ```
->>>>>>> 9ad341ef45a1866f8657ffa1b06e1bf8aa1d3783
+
